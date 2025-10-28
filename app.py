@@ -126,7 +126,6 @@ st.markdown("""
 
 # Sidebar for input method selection
 with st.sidebar:
-    st.image("https://img.icons8.com/color/96/000000/machine-learning.png", width=80)
     st.title("Input Method")
     input_method = st.selectbox(
         "Choose input method:",
